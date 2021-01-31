@@ -27,3 +27,12 @@ D:\Dev\DOTNET\Commander\obj\Debug\net5.0\Commander.dll
 D:\Dev\DOTNET\Commander\obj\Debug\net5.0\ref\Commander.dll
 D:\Dev\DOTNET\Commander\obj\Debug\net5.0\Commander.pdb
 D:\Dev\DOTNET\Commander\obj\Debug\net5.0\Commander.genruntimeconfig.cache
+D:\Dev\DOTNET\Commander\bin\Debug\net5.0\Humanizer.dll
+D:\Dev\DOTNET\Commander\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\Dev\DOTNET\Commander\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Dev\DOTNET\Commander\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Dev\DOTNET\Commander\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Dev\DOTNET\Commander\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Dev\DOTNET\Commander\bin\Debug\net5.0\Npgsql.dll
+D:\Dev\DOTNET\Commander\bin\Debug\net5.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\Dev\DOTNET\Commander\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
