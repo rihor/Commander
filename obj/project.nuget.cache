@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "oSWxrKA53PMHEF3ztZ+67DXkM9LnmCumFS2mRjd4enFmA+EU6QVJLKrq0dC0FkAM/m2HtAN3/qvdq797svoapQ==",
+  "dgSpecHash": "A057xLgAZ2CnzhCumzBgNEnkj/epLwioJoHytYa6hcuahxzS0xAq7+HuzDPo8PEwFDBdhCcawjhTENuSxrCWgA==",
   "success": true,
   "projectFilePath": "D:\\Dev\\DOTNET\\Commander\\Commander.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Pedro\\.nuget\\packages\\automapper\\10.1.0\\automapper.10.1.0.nupkg.sha512",
+    "C:\\Users\\Pedro\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",
     "C:\\Users\\Pedro\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Pedro\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Pedro\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.2\\microsoft.entityframeworkcore.5.0.2.nupkg.sha512",
@@ -32,6 +34,7 @@
     "C:\\Users\\Pedro\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
     "C:\\Users\\Pedro\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "C:\\Users\\Pedro\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.1\\system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512",
+    "C:\\Users\\Pedro\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
     "C:\\Users\\Pedro\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.6.0\\system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512"
   ],
   "logs": []

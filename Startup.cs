@@ -1,3 +1,4 @@
+using AutoMapper;
 using Commander.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -6,6 +7,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
+using System;
 
 namespace Commander
 {
@@ -24,7 +26,8 @@ namespace Commander
         opt => opt.UseNpgsql(Configuration.GetConnectionString("CommanderConnection")));
       services.AddControllers();
 
-      // services.AddScoped<ICommanderRepo, MockCommanderRepo>(); // Mock Implementation
+      services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
       services.AddScoped<ICommanderRepo, NpgsqlCommanderRepo>();
 
       services.AddSwaggerGen(c =>
