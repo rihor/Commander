@@ -7,6 +7,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
+using Newtonsoft.Json.Serialization;
 using System;
 
 namespace Commander
@@ -24,7 +25,13 @@ namespace Commander
     {
       services.AddDbContext<CommanderContext>(
         opt => opt.UseNpgsql(Configuration.GetConnectionString("CommanderConnection")));
-      services.AddControllers();
+
+      services
+        .AddControllers()
+        .AddNewtonsoftJson(s =>
+        {
+          s.SerializerSettings.ContractResolver = new CamelCasePropertyNamesContractResolver();
+        });
 
       services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
